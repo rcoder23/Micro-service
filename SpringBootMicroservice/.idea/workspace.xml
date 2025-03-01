@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6078e914-a888-4c21-9694-97cc5f321608" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catglog-service/src/main/java/com/shop/bookstore/catalog/config/ApplicationProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catglog-service/src/main/java/com/shop/bookstore/catalog/dao/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catglog-service/src/main/java/com/shop/bookstore/catalog/mapper/ProductMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catglog-service/src/main/java/com/shop/bookstore/catalog/model/PagedResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catglog-service/src/main/java/com/shop/bookstore/catalog/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catglog-service/src/main/java/com/shop/bookstore/catalog/model/ProductEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catglog-service/src/main/java/com/shop/bookstore/catalog/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catglog-service/src/main/java/com/shop/bookstore/catalog/CatglogServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/catglog-service/src/main/java/com/shop/bookstore/catalog/CatglogServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catglog-service/src/main/java/com/shop/bookstore/catalog/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/catglog-service/src/main/java/com/shop/bookstore/catalog/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catglog-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/catglog-service/src/main/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="6078e914-a888-4c21-9694-97cc5f321608" name="Changes" comment="added the pagination" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,12 +94,23 @@
       <option name="presentableId" value="Default" />
       <updated>1740565430592</updated>
     </task>
+    <task id="LOCAL-00001" summary="added the pagination">
+      <option name="closed" value="true" />
+      <created>1740808581364</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1740808581364</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="added the pagination" />
+    <option name="LAST_COMMIT_MESSAGE" value="added the pagination" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
