@@ -3,7 +3,8 @@ package com.shop.bookstore.catalog.mapper;
 import com.shop.bookstore.catalog.model.Product;
 import com.shop.bookstore.catalog.model.ProductEntity;
 
-public class ProductMapper {
+public class ProductMapper {// Noncompliant
+
     public static Product toProduct(ProductEntity productEntity) {
         return new Product(
                 productEntity.getCode(),

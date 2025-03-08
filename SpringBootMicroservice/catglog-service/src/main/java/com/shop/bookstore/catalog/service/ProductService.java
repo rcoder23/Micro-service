@@ -1,5 +1,6 @@
 package com.shop.bookstore.catalog.service;
 
+import aj.org.objectweb.asm.commons.Remapper;
 import com.shop.bookstore.catalog.config.ApplicationProperties;
 import com.shop.bookstore.catalog.dao.ProductRepository;
 import com.shop.bookstore.catalog.mapper.ProductMapper;
@@ -8,10 +9,13 @@ import com.shop.bookstore.catalog.model.Product;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 
-import java.awt.print.Pageable;
+import java.util.Optional;
 
 @Service
 @Transactional
@@ -44,4 +48,7 @@ public class ProductService {
     }
 
 
+    public Optional<Product> getProductByCode(String code) {
+        return productRepository.findByCode(code).map(ProductMapper::toProduct);
+    }
 }
