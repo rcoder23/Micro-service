@@ -16,6 +16,7 @@
 
     <modules>
         <module>catglog-service</module>
+        <module>order-service</module>
     </modules>
 
 </project>
